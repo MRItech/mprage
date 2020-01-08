@@ -8,8 +8,7 @@
 res = [256*1 256*1 98*1.5]./[295 295 173];
 
 %% laod masks 
-load brain_masks
-
+load brain_maps_208
 
  
 %% PD map
