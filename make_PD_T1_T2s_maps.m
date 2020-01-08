@@ -7,8 +7,9 @@
 %% chnage resolution to 0.868x0.868x0.85 mm
 res = [256*1 256*1 98*1.5]./[295 295 173];
 
-%% laod masks 
+%% laod masks
 load brain_maps_208
+
 
  
 %% PD map
