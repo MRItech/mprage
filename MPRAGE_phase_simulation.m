@@ -172,7 +172,7 @@ noise = noise/n_std;   % normalize noise std to 1
 mean(abs(ks_rr(:)))
 % add noise in k-space 
 ks_r = (ks_rr )+ (noise/SNR*53.5);
-ks_r = elept_filt(ks_r);
+% ks_r = elept_filt(ks_r);
 
 % transform into space domain
 sign_rcv = ifftn(ifftshift(ks_r));
