@@ -124,7 +124,7 @@ siz = size(mag);
 % generate mask
 mask = zeros(siz); 
 mask(mag~=0) = 1;
-mag = mag + 0.01;
+
 %% dipole kernel
 D = dipole_kernel(siz, res);
 % prepare local field
